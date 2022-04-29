@@ -411,3 +411,5 @@ FodyWeavers.xsd
 /taskforce
 /testler denemeler
 /PatikaNotlar
+/.vscode
+*.csproj
