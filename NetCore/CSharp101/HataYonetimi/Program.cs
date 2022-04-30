@@ -7,7 +7,7 @@ namespace HataYonetimi
         static void Main(string[] args)
         {
             bool hataVar=false;
-           /*  try
+            try
             {
                 Console.WriteLine("Bir sayı giriniz");
             int sayi = Convert.ToInt32(Console.ReadLine());
@@ -24,7 +24,7 @@ namespace HataYonetimi
                 Console.WriteLine("işlem hatasız tamamlanamadı!");
                 else
                 Console.WriteLine("işlem tamamlandı.");
-            } */
+            }
 
             try
             {
