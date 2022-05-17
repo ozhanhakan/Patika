@@ -1,0 +1,26 @@
+/*
+ders linki
+https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/merge-sort
+
+Merge Sort
+Insertion Sort'da, Big-O gösteriminden dolayı input'um arttığında n^2 olduğunda dolayı çalışma zamanı artıyor.
+
+Peki daha hızlı bir şekilde sıralama yapılabilir mi? Evet, Merge Sort burada yardımımıza koşuyor. Bir listeyi her adımda parçaya ayırıp tek eleman kalıncaya kadar bölüyor. Böldükten sonra sıralı bir şekilde bize sunuyor (Performans).
+Insertion sort'da, time complexity n2 olduğundan ötürü çalışma zamanımız artıyordu. Merge sort'da ise nlogn olduğu için açık ara performans olarak daha iyi diyebiliriz
+*/
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+->[16,21,11,8,12,22]
+->[16,21,11],[8,12,22]
+->[16],[21,11],[8],[12,22]
+->[16],[21],[11],[8],[12],[22]
+->[16],[11,21],[8],[12,22]
+->[11,16,21],[8,12,22]
+->[8,11,12,16,21,22]
+
+Big-O gösterimini yazınız.
+
+her aşama sürekli 2'ye bölünerek daraltıldığı için ikiye bölümlerin miktarı log(n)
+n eleman için * log (n)
