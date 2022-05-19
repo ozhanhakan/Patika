@@ -73,6 +73,14 @@ içerisinde saklayan ve dizinin elemanlarını sıralayan programı yazınız.
             asal.Sort();
             asal.Reverse();
             System.Console.WriteLine("Asal sayı adedi: " + asal.Count);
+            double ortalamaAsal=0;
+            foreach (var item in asal)
+            {
+                ortalamaAsal+=Convert.ToDouble(item);
+            }
+            ortalamaAsal /=asal.Count;
+            System.Console.WriteLine("Asal sayı ortalaması: " + ortalamaAsal);
+
             foreach (var item in asal)
             {
                 System.Console.WriteLine(item);
@@ -81,6 +89,13 @@ içerisinde saklayan ve dizinin elemanlarını sıralayan programı yazınız.
             asalOlmayan.Sort();
             asalOlmayan.Reverse();
             System.Console.WriteLine("Asal olmayan sayı adedi: " + asalOlmayan.Count);
+            double ortalamaAsalOlmayan=0;
+            foreach (var item in asalOlmayan)
+            {
+                ortalamaAsalOlmayan+=Convert.ToDouble(item);
+            }
+            ortalamaAsalOlmayan /=asalOlmayan.Count;
+            System.Console.WriteLine("Asal olmayan sayı listesi ortalaması: " + ortalamaAsalOlmayan);
 
             foreach (var item in asalOlmayan)
             {
